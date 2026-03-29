@@ -1,70 +1,34 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <title>تقرير إنجاز - أ/ عبدالعزيز الفيفي</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
-        body { font-family: 'Cairo', sans-serif; background: #f0f2f5; margin: 0; padding: 40px; }
-        .report-paper { width: 210mm; min-height: 297mm; padding: 20px 40px; margin: auto; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); position: relative; border: 1px solid #ddd; }
-        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #2c3e50; padding-bottom: 10px; margin-bottom: 30px; }
-        .header-text { text-align: center; font-size: 14px; color: #2c3e50; }
-        h1 { color: #1a5a96; text-align: center; text-decoration: underline; font-size: 24px; }
-        .summary-box { background: #f9f9f9; border-right: 5px solid #1a5a96; padding: 15px; margin: 20px 0; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-        table, th, td { border: 1px solid #ccc; }
-        th { background: #1a5a96; color: white; padding: 10px; }
-        td { padding: 10px; text-align: center; }
-        .chart-mockup { margin: 30px 0; text-align: center; }
-        .progress-bar-container { background: #eee; border-radius: 10px; height: 25px; width: 100%; margin: 10px 0; overflow: hidden; }
-        .progress-bar { background: linear-gradient(90deg, #27ae60, #2ecc71); height: 100%; width: 75%; text-align: center; color: white; line-height: 25px; font-weight: bold; }
-        .footer { margin-top: 50px; display: flex; justify-content: space-between; }
-        .signature { text-align: center; width: 200px; }
-        .btn-print { background: #e74c3c; color: white; padding: 10px 25px; border: none; border-radius: 5px; cursor: pointer; font-family: 'Cairo'; font-weight: bold; position: fixed; top: 20px; left: 20px; }
-        @media print { .btn-print { display: none; } body { padding: 0; background: white; } .report-paper { box-shadow: none; border: none; margin: 0; width: 100%; } }
-    </style>
-</head>
-<body>
+# 📄 تقرير إنجاز "منصة التميز الرقمية" 🚀
+**ثانوية الأمير عبدالمجيد بالرياض**
 
-<button class="btn-print" onclick="window.print()">طباعة التقرير / حفظ PDF</button>
+---
 
-<div class="report-paper">
-    <div class="header">
-        <div class="header-text">
-            المملكة العربية السعودية<br>
-            وزارة التعليم<br>
-            إدارة تعليم الرياض<br>
-            ثانوية الأمير عبدالمجيد
-        </div>
-        <div style="font-weight: bold; font-size: 18px; color: #1a5a96;">
-            تقرير إنجاز منصة التميز (قدرات)
-        </div>
-    </div>
+### 👤 بيانات المشروع
+* **المعلم المشرف:** أ/ عبدالعزيز الفيفي.
+* **الفئة المستهدفة:** 135 طالباً.
+* **الحالة التقنية:** مفعّل (كود ارتباط شرطي + تحدي يومي).
 
-    <h1>تقرير متابعة تدريب طلاب القدرات - القسم اللفظي</h1>
+---
 
-    <div class="summary-box">
-        <strong>سعادة مدير المدرسة الدكتور/ عبدالله بن ظافر الشهري .. المحترم</strong><br>
-        نفيدكم علماً بسير العمل في مشروع "منصة التميز الرقمية" لتدريب طلاب المدرسة على اختبار القدرات العامة، حيث نمر حالياً بمرحلة متقدمة من الإنجاز.
-    </div>
+### 📊 مؤشر الإنجاز الحالي
+| المرحلة | الحالة | نسبة الإتمام |
+| :--- | :---: | :---: |
+| **القسم الأول والأساسي** | ✅ | 100% |
+| **القسم الثاني (الحالي)** | ✅ | 100% |
+| **بقية الأقسام (اللفظي)** | 🔄 | جاري العمل |
+| **الختام النهائي** | 🏁 | **04 / 12 / 1447 هـ** |
 
-    <h3>📊 بيانات الإنجاز الحالية:</h3>
-    <table>
-        <tr>
-            <th>عدد الطلاب المسجلين</th>
-            <th>القسم المنتهي</th>
-            <th>نظام التحدي اليومي</th>
-            <th>نسبة التفاعل</th>
-        </tr>
-        <tr>
-            <td>135 طالباً</td>
-            <td>نهاية القسم الثاني</td>
-            <td>نشط (تحديث كل 24 ساعة)</td>
-            <td>عالية جداً</td>
-        </tr>
-    </table>
+---
 
-    <h3>📈 حالة تقدم المنهج التدريبي:</h3>
-    <p>تم إنجاز الأقسام المقررة حتى تاريخه، وجاري العمل على استكمال المتبقي وفق الجدول الزمني:</p>
-    <div class="progress-bar-container">
-        <div class="progress-bar">7
+### 💡 مميزات المنصة (نهاية القسم الثاني)
+1. **التحدي اليومي:** رابط اختبار تفاعلي يتغير تلقائياً كل 24 ساعة لضمان استمرارية تدريب الـ 135 طالباً.
+2. **الأتمتة:** نظام تصحيح فوري لنتائج الطلاب دون تدخل بشري.
+3. **التوثيق:** جميع النماذج مرتبطة برمز حماية الملكية الفكرية (أ/ عبدالعزيز الفيفي).
+
+---
+
+### 📝 ملاحظة الإدارة
+> **سعادة المدير د. عبدالله بن ظافر الشهري،** العمل يسير وفق الخطة الزمنية المعتمدة، وبإذن الله سننتهي من كامل الأقسام في الموعد المحدد أعلاه.
+
+---
+**[🔗 اضغط هنا للدخول للمنصة](https://aztlaztl1512-bit.github.io/MAHME-/)**
